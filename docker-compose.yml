@@ -42,9 +42,6 @@ services:
     networks:
       - default
 
-volumes:
-  nginx-cache:
-
 networks:
   umami_default:
     external: true
